@@ -1,0 +1,635 @@
+
+.site-navigation
+{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    padding-left: 130px;
+    padding-right: 160px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    position: sticky;
+
+    
+
+}
+
+.header { 
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    padding: 10px;
+
+    
+   
+}
+
+
+.site-navigation ul, li {
+    margin: 0; 
+    padding: 0;
+  }
+  
+ .site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+  }
+
+
+.home{ 
+  
+    color: black;
+    font: 16px  sans-serif;
+    text-decoration: none;
+    font-size: 16px;  
+    font-weight: bold;
+}
+a:link{
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.about{
+    color: #2B2B2B;
+    font: 16px sans-serif;
+    margin: 0px 12.5px; 
+}
+
+.hire{
+        background: #2B2B2B; 
+        border-radius: 9999px;
+        color: #FFFFFF;
+        padding: 8px 24px;
+        margin: 0px 0px 0px 12.5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: 16px  sans-serif;
+}
+.small{
+    color: #2B2B2B;
+    background: #F5C55D;
+    padding: 9px 17px 5px 17px;
+    font: 12px sans-serif;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 6px 6px 6px 6px;
+
+}
+
+.main{
+
+    box-sizing: 60;
+    padding: 10%;
+    
+}
+
+
+
+h1{
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #2B2B2B;
+    padding: 685.31 * 124;
+    text-align: center;
+}
+p{
+    font-family: "Wix Made for Dispaly", sans-serif;
+    font-size: 18px;
+    margin: 0px 0px 15px;
+    color: #2B2B2B;
+    padding: 669.31*57;
+    text-align: center;
+    margin: 0 0 15px;
+    
+
+}
+h5{
+    font-family: sans-serif;
+}
+.start{
+    background:#3A56F5; 
+    border-radius: 9999px;
+    color: #FFFFFF;
+    padding: 8px 24px;
+    margin: 25.5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-shadow: 0px 0px 0px #FFFFFF;
+    box-shadow: 0px 4px 40px 0px rgba(57.999999999999964, 85.99999999999991, 245, 0.4);
+
+}
+
+.buttons{ 
+  
+    background: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0cm;
+    font: 16px  sans-serif;
+
+}
+
+
+.second{
+    background-color: #2B2B2B;
+    display: flex;
+    transition: 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 1em 0rem 0rem 0rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 300px;
+    
+}
+
+.second1{
+    color: #FFFFFF;
+    text-align: left;
+    font: 38px "Wix Made for Dispaly", sans-serif; 
+    line-height: 48.64px;
+    font-weight: 400;
+    margin-left: 150px;
+    
+    
+}
+.second2{
+    color: #FFFFFF;
+    text-align: right;
+    font: 16px;
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+    margin-right: 170px;    
+}
+
+.img2{
+    
+    width: 100%;
+    height: 146px;
+    object-fit: contain;
+    opacity: 0.2;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 40px;
+
+}
+
+.view{
+    color: #F5C55D;
+    margin: 5px;
+    padding-right: 500px;
+}
+
+.services{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    
+    
+    color: #2B2B2B;
+    background-color: #f0f2f6;
+    margin: none;
+    padding: none;
+}
+.our{
+    font-size: 38px;
+    margin-top: none;
+    padding-top: 125px;
+    text-align: left;
+    margin-left: 150px;
+
+}
+
+.ourp{
+    font-size: 16px;
+    margin-left: 105px;
+    padding-left: 50px;
+    
+    margin-right: 45px;
+    padding-right: 120px;
+    text-align:start;
+
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+
+.staff{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    background-color: #FFFFFF;
+    width: 480px;
+    height: 190px;
+    align-content  : center;
+    margin-left: 155px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 25px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sa{
+    font-size: 22px;
+    margin: 10px 10px 10px 0px;
+    padding: 1.0rem 1.8rem 1.0rem 0rem;
+    text-align: left;
+}
+
+.sb{
+    font-size: 16px;
+    margin: 10px 10px 10px 0px;
+    text-align: left;
+    
+
+}
+.staffimg{
+    width: 130px;
+    padding-right: 20px;
+}
+
+.web{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    background-color: #FFFFFF;
+    width: 480px;
+    height: 190px;
+    align-content  : center;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding: 10px;
+    display: flex;
+    margin-top: 25px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.sales{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    background-color: #FFFFFF;
+    width: 480px;
+    height: 190px;
+    align-content  : center;
+    margin-left: 155px;
+    padding: 10px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+.digital{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    background-color: #FFFFFF;
+    width: 480px;
+    height: 190px;
+    align-content  : center;
+    margin-left: 30px;
+    margin-right: 100px;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.staffweb{
+    display: flex;
+}
+
+.salesdigital{
+    display: flex;
+}
+
+.services{
+    padding-bottom: 105px;
+    
+}
+
+.tech{
+    color: #2B2B2B;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-left: 115px;
+    padding-right: 115px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.tt{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    font-size: 38px;
+}
+
+.tp{
+    font-family:"Wix Made for Dispaly", sans-serif;
+    font-size: 16px;
+    text-align: start;
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+
+
+.radio{
+    font: 22px "Wix Made for Dispaly", sans-serif;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.forth{
+    display: flex;
+}
+
+.img14{
+    margin: 50px;
+    padding-left: 50px;
+
+    
+display:inline-flex;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+row-gap: 180px;
+column-gap: 100px;
+
+}
+
+.img58{
+    padding-left: 200px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 50px;
+    column-gap: 380px;
+}
+
+.img67{
+    padding-left: 75px;
+
+}
+
+.img8{
+    padding-left: 110px;
+    margin-left: 10px;
+}
+
+
+.allimg{
+    margin: 10px;
+}
+
+
+
+
+.hirer{
+    font-family: "Wix Made for Dispaly", sans-serif;
+    background-image: url(https://2023.stackdot.in/wp-content/uploads/2023/04/bg_globe_blue.svg);
+    
+
+    margin-top: 100px;
+    margin-bottom: none;
+    padding-top: 25px;
+    padding-bottom: 50px;
+   
+    padding-right: 180px;
+    border-left: 6px solid green;
+    
+    border-width: 8px;
+    border-color: #293fbd;
+    
+}
+
+.hireheader{
+    font-size: 38px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 155px;
+    line-height: 48.64px;
+    font-weight: bold;
+}
+
+.hirep{
+    font-size: 16px;
+    padding-right: 180px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-left: 155px;
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+.hireus{
+   
+    background-color: #293fbd;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-top: 25px; 
+    margin-bottom: 30px;
+    font-weight: bold;
+    background-size: 100px;
+    text-align: center;
+
+}
+
+.buttonhire{
+    background: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    border: 0cm;
+    font: 16px  sans-serif;
+    padding-left: 160px;
+   
+}
+
+
+
+.serve{
+    color:#2B2B2B;
+    font-family: "Wix Made for Dispaly", sans-serif;
+
+    margin-left: 105px;
+    padding-left: 50px;
+    
+    margin-right: 50px;
+    padding-right: 100px;
+}
+
+.sh{
+    font-size: 38px;
+    line-height: 48.64px;
+    font-weight: bold;
+}
+
+.sp{
+    font-size: 16px;
+    text-align: start;
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+
+
+
+.health{
+    display: flex;
+    margin-left: 155px;
+}
+
+
+.hc1{
+    font-size: 22px;
+    background-color: #F5C55D;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 80px;  
+    margin-right: 50px;
+    border-radius: 15px 15px 15px 15px;
+}
+
+
+.hcp{
+    color: #FFFFFF;
+    font-weight: bold;
+    text-align: left; 
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+
+.seven{
+    display: flex;   
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #FFFFFF;
+}
+
+
+.sleft{
+
+   
+    padding-top: 100px;
+    padding-bottom: 100px ;
+
+    background-color: #2B2B2B;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    border-color: #f0f2f6;
+    width:50%;
+    
+
+    color: #FFFFFF;
+}
+
+.sociallogo{
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+
+.socialp{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Wix Made for Dispaly", sans-serif;
+    line-height: 1.6em;
+    letter-spacing: 0.4px;
+    text-align: left;
+    padding-left: 150px;
+}
+
+.sociallink{
+    padding-left: 125px;
+}
+
+.socialcolor{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: "Wix Made for Dispaly", sans-serif;
+    line-height: 1.6em;
+    padding-left: 150px;
+}
+
+
+.sright{
+    background-color: #2B2B2B;
+    width: 50%;
+    padding-bottom: 100px;
+}
+
+
+.rightheader{
+    color: #FFFFFF;
+    padding-top: 100px;
+    text-align: left;
+    
+}
+
+.sright{
+    padding-left: 100px;
+}
+
+.buttonhireusseven{
+
+    background-color: #2B2B2B;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: #FFFFFF;
+    border-radius: 30px 30px 30px 30px;
+    padding: 30px 50px 30px 50px
+
+}
+
+.eight{
+    background-color: #2B2B2B;
+    display: flex;
+    font-family:  "Wix Made for Dispaly", sans-serif;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+ul.eightone{
+    color: #FFFFFF;
+    list-style-type: none;
+    font-size: 16px;
+       
+}
+
+.eighto{
+
+    padding: 20px;
+    color: #FFFFFF;
+
+}
+
+.eightone{
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 60px;
+    font-size: 16px;
+}
+
+
+.eightfiveh{
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: bold;
+   
+}
+
+.eightfourp{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: left; 
+}
+
+.link{
+    color:#FFFFFF;
+}
+
+
